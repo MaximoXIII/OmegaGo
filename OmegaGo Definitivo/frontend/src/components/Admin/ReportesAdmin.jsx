@@ -22,7 +22,7 @@ const ReportesAdmin = () => {
             console.error("Error al cargar reportes:", error);
         }
     };
-
+// Eliminar reportes
     const eliminarReporte = async (id) => {
         if (!window.confirm("¿Eliminar este reporte?")) return;
         try {

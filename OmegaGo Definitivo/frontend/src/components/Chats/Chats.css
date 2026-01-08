@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* Contenedor general */
+.chats-container {
+    padding: 2rem;
+    background: radial-gradient(circle at top left, #1e1e2f, #12121a);
+    min-height: 100vh;
+    color: white;
+    box-sizing: border-box;
+}
+
+    .chats-container h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+    }
+
+/* Lista de chats */
+.chat-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+/* Item de chat */
+.chat-item {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    border-radius: 12px;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+    .chat-item p {
+        margin: 0;
+        font-size: 1rem;
+        color: #f0f0f0;
+    }
+
+    .chat-item button {
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+        .chat-item button:not(:last-child) {
+            margin-bottom: 0.5rem;
+        }
+
+        .chat-item button:hover {
+            opacity: 0.9;
+        }
+
+        .chat-item button:nth-of-type(1) {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .chat-item button.reportar {
+            background-color: #dc3545;
+            color: white;
+        }

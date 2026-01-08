@@ -1,0 +1,8 @@
+Usuario: davidmaldont@gmail.com
+Contraseña: Ilerna
+
+Usuario: admin@omegago.com
+Contraseña: Admin123
+
+Usuario: pepito@gmail.com
+Contraseña: pepito

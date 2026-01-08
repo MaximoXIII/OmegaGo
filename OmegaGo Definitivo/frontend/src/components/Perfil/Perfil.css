@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.perfil-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle at center, #0f2a3f, #081c2f);
+    color: #fff;
+    font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+    .perfil-page h2 {
+        margin-bottom: 1rem;
+    }
+
+    .perfil-page form {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(10px);
+        border-radius: 16px;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        width: 300px;
+    }
+
+        .perfil-page form label {
+            font-size: 0.9rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .perfil-page form input {
+            padding: 0.5rem;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        .perfil-page form button {
+            margin-top: 1rem;
+            padding: 0.6rem;
+            border: none;
+            border-radius: 8px;
+            background: #007bff;
+            color: #fff;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+            .perfil-page form button:hover {
+                background: #0056b3;
+            }
